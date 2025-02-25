@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Eiver Obando Ramírez">
+    <meta name="keywords" content="registro, tienda, formulario">
+    <meta name="description" content="Formulario de registro para nuestra tienda.">
+  </head>
+  <body>
+    <h1>Registro en nuestra tienda</h1>
+    <form>
+      <label for="name">Nombre de usuario</label><br>
+      <input type="text" id="name" name="name" placeholder="Ej: Juan123"><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Ej: juan@example.com"><br><br>
+      <label for="age">Edad:</label><br>
+      <input type="number" id="age" name="age" placeholder="Ej: 30"><br><br>
+      <label>Género:</label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Masculino</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Femenino</label><br><br>
+      <label for="referrer">Recomendado por:</label><br>
+      <select id="referrer" name="referrer">
+        <option value="google">Google</option>
+        <option value="facebook">Facebook</option>
+        <option value="friend">Amigo</option>
+        <option value="other">Otro</option>
+      </select><br><br>
+      <label for="comments">Comentarios:</label><br>
+      <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br> 
+      <label for="terms">Acepto términos y condiciones:</label><br>
+      <input type="checkbox" id="terms" name="terms"><br><br>
+      <input type="submit" value="Registrarse">
+    </form>
+  </body>
+</html>
